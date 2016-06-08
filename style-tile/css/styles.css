@@ -2,6 +2,12 @@ body {
     background-image: url(../img/grilled.png);
 }
 
+li {
+    display: inline-flex;
+    list-style: none;
+    margin: 5px;
+}
+
 /* Color Palette */
 .color-1 {
      background: black;   
