@@ -1,0 +1,107 @@
+body {
+    background-image: url(../img/grilled.png);
+}
+
+/* Header */
+header{
+    font-size: 2em;
+    text-align: center;
+/*    margin-bottom: -800px;*/
+    margin-top: -30px;
+}
+
+
+/* Navigation */
+nav li {
+    display: inline-flex;
+    font-size: 18px;
+    padding-right: 30px;
+    text-decoration: none;
+
+}
+
+/* ORDER: l(ink) v(isited) f h(overed) a(active) */
+nav a:link, 
+nav a:visited {
+    color: dimgray;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: cadetblue;
+    transition: all .5s;
+}
+
+
+/* Portfolio */
+li {
+    display: inline-flex;
+    list-style: none;
+    margin: 5px;
+}
+
+.thumbnails {
+    text-align: center;
+}
+
+.thumbnails img {
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: thick;
+    height: 30%;
+    width: 30%;
+}
+
+.thumbnails img:link,
+.thumbnails img:visited {
+
+}
+
+.thumbnails img:hover,
+.thumbnails img:active {
+    border-style: none;
+    background: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Text */
+h1 {
+    color:teal;
+    font-weight:400;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 300;
+    color: cadetblue;
+}
+
+h3 {
+    font-weight: 200;
+    color: cadetblue;
+}
+
+h4 {
+    color:dimgray;
+    font-weight: 200;
+}
+
+p, dt, dd, li {
+    color:dimgray;
+    font-weight: 100;
+    list-style: none;
+}
+
+/* Connect via social media */
+.social_media {
+    text-align: center;
+}
+
+.social_media img{
+    height: 50%;
+    width: 50%;   
+}
