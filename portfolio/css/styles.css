@@ -54,7 +54,8 @@ li {
 }
 
 .thumbnails img:link,
-.thumbnails img:visited {
+.thumbnails img:visited
+.thumbnails img:hover {
 
 }
 
@@ -62,8 +63,6 @@ li {
 .thumbnails img:active {
     border-style: none;
     background: cadetblue;
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -101,7 +100,10 @@ p, dt, dd, li {
     text-align: center;
 }
 
-.social_media img{
-    height: 50%;
-    width: 50%;   
+#social_media {
+    text-align: center;
+}
+#social_media img {
+        height: 50%;
+        width: 50%;    
 }
