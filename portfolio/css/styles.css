@@ -63,6 +63,8 @@ li {
 .thumbnails img:active {
     border-style: none;
     background: cadetblue;
+    height: 30%;
+    width: 30%;
 }
 
 
